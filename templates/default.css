@@ -1,0 +1,240 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MIT/X11 License
+ * 
+ * Copyright (c) 2011 Diego Casorran
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included
+ * in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ * 
+ * Contributor(s):
+ *   Diego Casorran <dcasorran@gmail.com> (Original Author)
+ * 
+ * ***** END LICENSE BLOCK ***** */
+
+* {
+	padding:0px;
+	margin:0px auto;
+}
+body {
+	font:14px/130% serif,helvetica,arial;
+	color:#000000;
+	overflow-x: hidden;
+	background-color:#fff;
+	height:100%;
+	width:990px;
+	width:1090px;
+	margin:0 auto;
+}
+#gCid {
+	height:100%;
+	margin:0 auto;
+}
+#head_content {
+/* 	margin:16px auto; */
+	padding:4px;
+	text-align:center;
+	width:1080px;
+}
+#sbar_content {
+	margin:30px 0px 0px 200px;
+	min-height:44px;
+	background-color:#fff;
+	width:850px;
+}
+#SearchForm img {
+	margin:6px 4px 2px 12px;
+}
+#SearchForm * {
+	float:left;
+}
+#SearchForm input {
+	min-height:20px;
+}
+#SearchForm select {
+	min-width:160px;
+	min-height:20px;
+}
+#SearchForm input[type="text"], #SearchForm select {
+	vertical-align:top;
+	margin-top: 12px;
+	margin-right:10px;
+	border:1px solid #448;
+	background-color:#f6f6f6;
+}
+#SearchForm input[type="submit"] {
+	height: 24px;
+	letter-spacing: 2px;
+	padding: 0 0 3px;
+	width: 60px;
+	margin-top: 10px;
+}
+#main_content {
+	padding:4px;
+	width:1080px;
+	position:relative;
+}
+#main_content #mc_left, #main_content #mc_left_c {
+	width:auto;
+	float:left;
+	margin-top: 40px;
+	height:420px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	padding-right:10px;
+	padding-top:10px;
+}
+#main_content #mc_left_c {
+	padding-left:10px;
+}
+#main_content #mc_left {
+/*	background:#fff url(../images/bee.png) bottom right no-repeat;*/
+	border-right:4px solid #f9edd5;
+}
+#main_content #mc_right {
+	float: right;
+	height: 600px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: -100px;
+	width:160px;
+}
+/* #main_content #mc_bottom {
+	float:left;
+	clear:both;
+	margin-top: 8px;
+	margin-left:24px;
+	width: 810px;
+} */
+a.active {
+	font-style:italic;
+	font-weight:bold;
+	color:#711;
+}
+#main_content #mc_centre {
+/*	width:670px;*/
+	float:left;
+	margin: 0 6px;
+}
+#main_content #mc_centre #mcc_content {
+  height: 428px;
+  margin: 0 auto;
+  padding-top: 12px;
+/*  width: 662px;*/
+  background-color:#fff;
+}
+#main_content #mc_centre #mcc_title {
+  color: #EEEEEE;
+  font: bold 14px Times;
+  font:bold 14px "Lucida Calligraphy", serif;
+  margin-left: 2px;
+  padding: 4px 12px;
+  text-align: center;
+  width:142px;
+  min-height: 21px;
+}
+#grplist, #catlist {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+/* #catlist {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+}
+#catlist li {
+	display:inline;
+	padding:1px 12px 1px 0px;
+} */
+#lnklist {
+  color: #000000;
+  display: block;
+  width: 710px;
+  height: 428px;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0 0 0 12px;
+  text-align: center;
+  text-decoration: none;
+  overflow:hidden;
+}
+#lnklist li {
+  display: inline;
+  float: left;
+  height: 96px;
+  position: relative;
+  width:96px;
+  margin-right:32px;
+  margin-bottom:16px;
+  padding:0px 7px;
+  background-color:#fff;
+}
+img {
+	border:0px;
+}
+a {
+	color:blue;
+	text-decoration:none;
+	text-transform:capitalize;
+}
+a:hover {
+	color:#447;
+}
+
+.clear {
+	clear:both;
+}
+
+.footer {
+	text-align:center;
+	margin:12px auto;
+	padding-bottom:4px;
+}
+a b {
+	font:bold 12px Helvetica;
+	border-bottom:1px solid #669;
+	margin: 1px 3px auto;
+	padding: 0 2px;
+}
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.centre {
+	text-align:center;
+	margin:0 auto;
+}
+.justify {
+	text-align:justify;
+}
+.clear {
+	clear:both;
+}
+.vam {
+	vertical-align:middle;
+}
+.pad4 {padding:4px}
+.pad10 {padding:10px}
+.rad5 {-moz-border-radius:5px}
+.rad10 {-moz-border-radius:10px}
